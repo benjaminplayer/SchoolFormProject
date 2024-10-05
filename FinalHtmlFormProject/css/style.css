@@ -28,10 +28,10 @@ body{
 
 #first{
     width: 800px;
-    height: 500px;
+    height: 350px;
     border: 2px solid;
     border-radius: 10px;
-    padding: 0.5em;
+    padding: 4px;
 }
 
 #imesedez{
@@ -62,15 +62,15 @@ body{
 #vlagateljText{
     font-weight: bold;
     float: left;
-    width: 49%;
+    width: 396px;
     height: 2em;
     border-right: 2px solid;
 }
 
 #vlagateljCheck{
     float:left;
-    width: 49%;
-    margin-left: 0.6em;
+    width: 396px;
+    margin-left: 0.4em;
     font-size: small;
 
 }
@@ -103,7 +103,7 @@ body{
 
 #dat2Ime{
     height: inherit;
-    width: 49%;
+    width: 396px;
     float:left;
     border-right: 2px solid;
 }
@@ -118,13 +118,14 @@ body{
 
 #dat2Naslov{
     height: inherit;
-    width: 50.75%;
+    width: 396px;
     float:left;
 }
 
 #data3{
     background: lightgray;
     height: 2em;
+    width: 100%;
     line-height: 2em;
     border-top: 2px solid;
     border-bottom: 2px solid;
@@ -134,11 +135,12 @@ body{
     background: lightcoral;
     height: 5em;
     width: 100%;
+    border-bottom: 2px solid;
 }
 
 #dat4Ime{
     height: inherit;
-    width: 49%;
+    width: 396px;
     float:left;
     border-right: 2px solid;
 }
@@ -153,20 +155,20 @@ body{
 
 #dat4Nas{
     height: inherit;
-    width: 50.75%;
+    width: 402px;
     float:left;
 }
 
 #data5{
     background: lightpink;
-    width: 49%;
+    width: 396px;
     height: 4em;
-    border-top: 2px solid;
     border-right: 2px solid;
+    border-bottom: 2px solid;
 }
 
 #dat5Out{
-    width: 60%;
+    width: 70%;
     height: 2em;
     border-right: 2px solid;
     border-bottom:2px solid;
@@ -194,19 +196,133 @@ body{
 
 #dat5Right{
     float: left;
-    width: 39%;
+    width: 29%;
     height: 4em;
+    font-size: small;
+    text-align: center;
 }
 
 #dat5Right input[type="text"]{
-    width: inherit;
-    height: 2.5em;
+    width: 98%;
+    height: 3.16em;
+}
+
+#second{
+    width: 100%;
+    height: 6em;
+    border: 2px solid;
+    border-radius:10px;
+    margin-top: 10px;
+}
+
+#secondHeadder{
+    width: 98.4%;
+    height: 2em;
+    padding: 0 .4em;
+    line-height: 2em;
+    font-weight: bold;
+    border-radius: 8px;
+    background: lightgray;
+}
+
+#secondData{
+    border-top: 2px solid;
+    width: 98.4%;
+    height: 4em;
+    padding: .3em .4em;
+}
+
+#third{
+    border: 2px solid;
+    border-radius: 10px;
+    height: 400px;
+    width: 100%;
+    background: lightblue;
+    margin-top: 3em;
+    list-style-position: inside;
+    padding: 4px;
+}
+
+#third h3{
+    font-style: italic;
+}
+
+#third ul{
+    list-style-type:"-";
+}
+
+#thirdHighlited{
+    color:red;
+}
+
+#thirdHighlited a{
+    color: red;
+    transition: 300ms;
+}
+
+#thirdHighlited a:hover{
+    color: hsl(249, 87%, 55%);
+    transition: 300ms;
+}
+
+#thirdIzjava{
+    margin: 1em 0;
+}
+
+#thirdSepparator{
+    background: lightgray;
+    width: 100%;
+    height: 6em;
+    line-height: 6em;
+}
+
+#thirdDate{
+    background: lightcoral;
+    float: left;
+    height: 6em;
+    width: 50%;
+}
+
+#thirdDate input[type="date"]{
+    transition: ease-in 50ms;
+    width: 50%;
+    height: 1.5em;
+    border: none;
+    outline: none;
+}
+
+#thirdDate input[type="date"]:focus{
+    border-bottom: 4px solid lightgray;
+    transition: ease-in 50ms;
+
+}
+
+#thirdSignature{
+    float: right;
+    background: lightgreen;
+    width: 40%;
+    height: 6em;
+}
+
+#fourth{
+    width: 100%;
+    height: 175;
+    border: 2px solid;
+    border-radius: 4px;
+    margin: 2em 0;
+    list-style:inside;
+}
+
+#fourth h4{
+    margin: 4px;
+}
+
+#fourth ol{
+    margin: 4px;
 }
 
 
 /*
-    Naredi da sta emso in letnik in oddelek en line
-    in da sta input fileds en line (div)
     popravi padding iz em v px
     popravi paddinge ter scales
 
